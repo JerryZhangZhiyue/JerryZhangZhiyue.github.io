@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>项目 | 你的名字</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1 class="site-title">你的名字</h1>
+    <p class="site-subtitle">一句话简介：例如「工业工程与物流管理｜行业研究」</p>
+
+    <nav class="navbar">
+      <a href="index.html">首页</a>
+      <a href="about.html">关于</a>
+      <a href="projects.html" class="active">项目</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section">
+      <h2>项目与研究（占位）</h2>
+      <p>
+        这里将来用于展示你的项目、论文、案例研究等。
+        每个项目可以用一个小块来描述：标题 + 简要说明。
+      </p>
+    </section>
+
+    <section class="section">
+      <h2>示例项目列表（占位）</h2>
+      <ul>
+        <li><strong>项目 A 标题</strong> —— 用一两句话说清做了什么、有什么亮点。</li>
+        <li><strong>项目 B 标题</strong> —— 简要说明问题背景和你的贡献。</li>
+        <li><strong>项目 C 标题</strong> —— 还可以附论文 / 报告 / GitHub 链接。</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    © <span id="year"></span> 你的名字 · 项目页面（占位版本）
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
