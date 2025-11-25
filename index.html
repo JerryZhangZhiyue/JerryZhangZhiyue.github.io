@@ -2,57 +2,58 @@
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
-  <title>我的个人网站</title>
+  <title>首页 | 你的名字</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-    body {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 1.5rem;
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      line-height: 1.6;
-    }
-    h1 {
-      margin-bottom: 0.2rem;
-    }
-    .subtitle {
-      color: #666;
-      margin-bottom: 1rem;
-    }
-    a {
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    hr {
-      margin: 1.5rem 0;
-      border: none;
-      border-top: 1px solid #ddd;
-    }
-  </style>
+  <!-- 引入统一样式 -->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>你的名字</h1>
-  <div class="subtitle">你的身份 / 研究方向 / 工作单位</div>
+  <header class="site-header">
+    <h1 class="site-title">你的名字</h1>
+    <p class="site-subtitle">一句话简介：例如「工业工程与物流管理｜行业研究」</p>
 
-  <hr>
+    <nav class="navbar">
+      <a href="index.html" class="active">首页</a>
+      <a href="about.html">关于</a>
+      <a href="projects.html">项目</a>
+    </nav>
+  </header>
 
-  <h2>关于我</h2>
-  <p>
-    这里写几句话介绍自己，研究背景、兴趣领域、目前在做什么。
-  </p>
+  <main>
+    <section class="section">
+      <h2>欢迎来到我的个人网站（占位）</h2>
+      <p>
+        这里是网站首页，目前内容为占位符，后续将逐步完善。你可以在这里放：
+        简要自我介绍、当前研究/工作方向、网站的主要栏目等。
+      </p>
+    </section>
 
-  <h2>项目与作品</h2>
-  <ul>
-    <li><strong>项目 A</strong> —— 一句话说明做了什么，解决了什么问题。</li>
-    <li><strong>项目 B</strong> —— 一句话说明你的贡献或亮点。</li>
-  </ul>
+    <section class="section">
+      <h2>近期关注方向（占位）</h2>
+      <ul>
+        <li>方向 A：例如「新能源交通与运营优化」</li>
+        <li>方向 B：例如「供应链与物流系统研究」</li>
+        <li>方向 C：例如「行业研究与数据分析」</li>
+      </ul>
+    </section>
 
-  <h2>联系方式</h2>
-  <p>
-    Email：<a href="mailto:you@example.com">you@example.com</a><br>
-    GitHub：<a href="https://github.com/your-username" target="_blank">your-username</a>
-  </p>
+    <section class="section">
+      <h2>快速链接（占位）</h2>
+      <ul>
+        <li><strong>关于我：</strong>详见 <a href="about.html">关于页面</a></li>
+        <li><strong>项目与研究：</strong>详见 <a href="projects.html">项目页面</a></li>
+        <li><strong>联系方式：</strong>暂时可放邮箱、GitHub、LinkedIn 等</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    © <span id="year"></span> 你的名字 · 本页为占位内容，后续持续更新
+  </footer>
+
+  <script>
+    // 自动填充年份的小脚本，可有可无
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
