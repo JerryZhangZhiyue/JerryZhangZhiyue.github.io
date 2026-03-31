@@ -13,7 +13,14 @@
       "Bash(mv /Users/zhangzhiyue/claude-test/jekyll-theme-chirpy/* /Users/zhangzhiyue/claude-test/)",
       "Bash(mv /Users/zhangzhiyue/claude-test/jekyll-theme-chirpy/.* /Users/zhangzhiyue/claude-test/)",
       "Bash(cp -rf /Users/zhangzhiyue/claude-test/jekyll-theme-chirpy/* /Users/zhangzhiyue/claude-test/)",
-      "Bash(cp -rf /Users/zhangzhiyue/claude-test/jekyll-theme-chirpy/.* /Users/zhangzhiyue/claude-test/)"
+      "Bash(cp -rf /Users/zhangzhiyue/claude-test/jekyll-theme-chirpy/.* /Users/zhangzhiyue/claude-test/)",
+      "Bash(cp -r /Users/zhangzhiyue/claude-test/.claude /Users/zhangzhiyue/JerryZhangZhiyue.github.io/)",
+      "Bash(cp -r /Users/zhangzhiyue/claude-test/.devcontainer /Users/zhangzhiyue/JerryZhangZhiyue.github.io/)",
+      "Bash(cp -r /Users/zhangzhiyue/claude-test/.github /Users/zhangzhiyue/JerryZhangZhiyue.github.io/)",
+      "Bash(cp -r /Users/zhangzhiyue/claude-test/.husky /Users/zhangzhiyue/JerryZhangZhiyue.github.io/)",
+      "Bash(rm -f about.html index.html projects.html style.css)",
+      "Bash(cp -r /Users/zhangzhiyue/claude-test/* .)",
+      "Bash(cp -r /Users/zhangzhiyue/claude-test/.* .)"
     ]
   },
   "enableAllProjectMcpServers": true,
