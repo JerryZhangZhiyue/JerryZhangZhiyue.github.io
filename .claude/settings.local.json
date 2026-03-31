@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python:*)",
+      "Bash(npx claude-code-wechat-channel:*)",
+      "Bash(claude:*)",
+      "Bash(npm list:*)",
+      "Bash(npm root:*)",
+      "Bash(brew install:*)",
+      "Bash(pandoc:*)",
+      "Bash(open -a \"Google Chrome\" --args --headless --print-to-pdf=/Users/zhangzhiyue/Desktop/github-pages-workflow.pdf /Users/zhangzhiyue/Desktop/github-pages-workflow.html)",
+      "Bash(git clone:*)",
+      "Bash(mv /Users/zhangzhiyue/claude-test/jekyll-theme-chirpy/* /Users/zhangzhiyue/claude-test/)",
+      "Bash(mv /Users/zhangzhiyue/claude-test/jekyll-theme-chirpy/.* /Users/zhangzhiyue/claude-test/)",
+      "Bash(cp -rf /Users/zhangzhiyue/claude-test/jekyll-theme-chirpy/* /Users/zhangzhiyue/claude-test/)",
+      "Bash(cp -rf /Users/zhangzhiyue/claude-test/jekyll-theme-chirpy/.* /Users/zhangzhiyue/claude-test/)"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "wechat"
+  ]
+}
